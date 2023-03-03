@@ -13,6 +13,7 @@
 }
 
 .input_box {
+    height: 2vh;
     width: 100%;
     border-radius: 50px;
     padding: 20px 30px;
@@ -47,4 +48,10 @@
 .input_submit:active {
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
+}
+.todos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    Flex: wrap;
 }
